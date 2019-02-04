@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<locations>
+<location>
+    <streetname>Katrinastrasse</streetname>
+    <postal>33452</postal>
+    <city>Berlin</city>
+</location>
+<location>
+    <streetname>Berlinersatrasse</streetname>
+    <postal>12429</postal>
+    <city>Stuttgart</city>
+</location>
+<location>
+    <streetname>Pariserstrasse</streetname>
+    <postal>29234</postal>
+    <city>Hamburg</city>
+</location>
+</locations>

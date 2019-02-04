@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+            >
+
+    <TextView
+            android:text="From"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/initial_location"
+            android:layout_marginLeft="10dp"
+    />
+
+    <AutoCompleteTextView
+            android:id="@+id/auto_complete_text_view_arrival"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal = "true"
+            />
+    <TextView
+            android:text="Departure Date"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:id="@+id/departure"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"/>
+    <TextView
+            android:text="Time"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:id="@+id/departuretime"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="200dp"/>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:inputType="date"
+            android:ems="8"
+            android:id="@+id/editDepartureDate"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:background="#D3D3D3"/>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:inputType="time"
+            android:ems="8"
+            android:id="@+id/editDepartureTime"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="200dp"
+            android:background="#D3D3D3"/>
+
+    <TextView
+            android:text="To"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="180dp"
+            android:layout_alignLeft="@id/initial_location"
+            android:id="@+id/destination"
+            android:layout_marginLeft="10dp"/>
+
+    <AutoCompleteTextView
+            android:id="@+id/auto_complete_text_view"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/destination"
+            android:layout_centerHorizontal="true" />
+
+    <TextView
+            android:text="Arrival Date"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:id="@+id/arrival"
+
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:text="Time"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:id="@+id/arrivaltime"
+
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="200dp"/>
+
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:inputType="date"
+            android:ems="8"
+            android:id="@+id/editArrivalDate"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="20dp"
+            android:background="#D3D3D3"/>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:inputType="time"
+            android:ems="8"
+            android:id="@+id/editArrivalTime"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="200dp"
+            android:background="#D3D3D3"/>
+
+
+
+
+
+</RelativeLayout>

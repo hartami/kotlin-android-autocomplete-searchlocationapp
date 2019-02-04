@@ -1,0 +1,25 @@
+{
+	"location": [
+			{
+				"street": "Karcherstrasse",
+				"postal_code": "67665",
+				"city": "Mannheim"
+			},
+			{
+				"street": "Darwinstrasse 17",
+				"postal_code": "56762",
+				"city": "Heidelberg"
+			},
+			{
+				"street": "Meisenweg 214",
+				"postal_code": "45823",
+				"city": "Ulm"
+			},
+			{
+				"street": "Klinikum",
+				"postal_code": "67665",
+				"city": "Mannheim"
+			}
+		]
+
+}
