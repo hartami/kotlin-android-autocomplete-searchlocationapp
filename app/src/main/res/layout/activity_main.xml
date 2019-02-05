@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:orientation="vertical"
-            >
+              android:orientation="vertical">
 
     <TextView
             android:text="From"
@@ -107,8 +106,13 @@
             android:layout_marginTop="290dp"
             android:layout_marginLeft="200dp"
             android:background="#D3D3D3"/>
-
-
+    <Button
+            android:text="FIND TRANSPORTATION"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginTop="340dp"
+            android:layout_centerHorizontal="true"/>
 
 
 

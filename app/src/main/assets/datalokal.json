@@ -9,6 +9,21 @@
 				"street": "Darwinstrasse 17",
 				"postal_code": "56762",
 				"city": "Heidelberg"
+			},
+			{
+				"street": "Johannestrase 17",
+				"postal_code": "56762",
+				"city": "Heidelberg"
+			},
+			{
+				"street": "St. Quantin 87",
+				"postal_code": "56762",
+				"city": "Heidelberg"
+			},
+			{
+				"street": "Kurkumastrasse 171",
+				"postal_code": "56762",
+				"city": "Konstanz"
 			}
 		]
 
